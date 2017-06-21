@@ -1,0 +1,10 @@
+﻿  Driver.cpp
+  Generating Code...
+c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\lookupserviceclientbase.h(12): warning C4172: returning address of local variable or temporary
+  Skipping... (no relevant changes detected)
+  ResourcePool.cpp
+  PoolServiceFactory.cpp
+  PoolResourceHandle.cpp
+  PoolResource.cpp
+  ServicePool.vcxproj -> C:\Users\Dionn\OneDrive\Documents\Visual Studio 2015\Projects\ServicePool\Debug\ServicePool.exe
+  ServicePool.vcxproj -> C:\Users\Dionn\OneDrive\Documents\Visual Studio 2015\Projects\ServicePool\Debug\ServicePool.pdb (Full PDB)

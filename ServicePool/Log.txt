@@ -1,0 +1,66 @@
+Fri Jun 16 20:57:59 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\poolresourcehandle.cpp
+ line: 57
+ message: null PoolResource pointer referenced by PoolResourceHandle
+
+Fri Jun 16 22:38:05 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 83
+ message: Could not find this handleID: -858993460
+
+Sat Jun 17 19:22:43 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 83
+ message: Could not find this handleID: -858993460
+
+Sat Jun 17 19:36:33 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 83
+ message: Could not find this handleID: -858993460
+
+Tue Jun 20 19:01:30 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 89
+ message: Could not find this handleID: -858993460
+
+Tue Jun 20 19:08:26 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 89
+ message: Could not find this handleID: -858993460
+
+Tue Jun 20 19:15:58 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 89
+ message: Could not find this handleID: -858993460
+
+Tue Jun 20 19:16:11 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 89
+ message: Could not find this handleID: -858993460
+
+Tue Jun 20 19:16:27 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 89
+ message: Could not find this handleID: -858993460
+
+Tue Jun 20 19:16:47 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 89
+ message: Could not find this handleID: -858993460
+
+Tue Jun 20 19:23:34 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 89
+ message: Could not find this handleID: -858993460
+

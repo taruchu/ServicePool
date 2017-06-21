@@ -1,0 +1,3 @@
+Fri Jun 16 17:05:54 2017
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\dataflyweight.cpp line: 48 message: ServiceA Context index was not found: 
+
