@@ -40,6 +40,9 @@
     <ClCompile Include="PoolServiceFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PoolResourceProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircularBuffer.h">
@@ -57,22 +60,28 @@
     <ClInclude Include="ResourcePool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LookUpServiceBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LookUpServiceClientBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="NETOLookUp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PoolServiceFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ResourceProviderBase.h">
+    <ClInclude Include="PoolResourceProxy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PoolResourceAdapter.h">
+    <ClInclude Include="IPoolResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceProviderBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ILookUpServiceBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ILookUpServiceClientBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourcePool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

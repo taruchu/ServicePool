@@ -1,6 +1,6 @@
 #pragma once
 
-#include "LookUpServiceBase.h"
+#include "ILookUpServiceBase.h"
 #include <chrono>
 #include <map>
 #include <vector>
@@ -9,7 +9,7 @@
 using namespace std; 
  
 
-class NETOLookUp : public LookUpServiceBase
+class NETOLookUp : public ILookUpServiceBase
 {
 public:
 	NETOLookUp() {} 

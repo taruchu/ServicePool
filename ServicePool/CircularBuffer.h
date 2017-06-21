@@ -15,6 +15,8 @@ public:
 	bool Empty(); 
 	bool Full();
 	void Print();
+	bool XpercentFull(float percent);
+	int GetCount() { return _count; }
 
 private:
 	unsigned _queueSize;
@@ -109,4 +111,11 @@ inline void CircularBuffer<T>::Print()
 	}
 	cout << "finished..." << endl;
 	return;
+}
+
+template<class T>
+inline bool CircularBuffer<T>::XpercentFull(float percent)
+{
+	float percentFull = (_count / _queueSize) * 100.0;
+	return (percentFull >= percent);
 }

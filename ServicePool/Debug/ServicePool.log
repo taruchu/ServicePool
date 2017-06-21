@@ -1,10 +1,10 @@
-﻿  Driver.cpp
-  Generating Code...
-c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\lookupserviceclientbase.h(12): warning C4172: returning address of local variable or temporary
-  Skipping... (no relevant changes detected)
-  ResourcePool.cpp
+﻿  ResourcePool.cpp
+c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp(151): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   PoolServiceFactory.cpp
+  Driver.cpp
+  Generating Code...
+  Compiling...
   PoolResourceHandle.cpp
-  PoolResource.cpp
+  Generating Code...
   ServicePool.vcxproj -> C:\Users\Dionn\OneDrive\Documents\Visual Studio 2015\Projects\ServicePool\Debug\ServicePool.exe
   ServicePool.vcxproj -> C:\Users\Dionn\OneDrive\Documents\Visual Studio 2015\Projects\ServicePool\Debug\ServicePool.pdb (Full PDB)

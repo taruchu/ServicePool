@@ -1,23 +1,25 @@
 #pragma once
+#include "IPoolResource.h"
 
  
-
-class PoolResource  
+class PoolResource : public IPoolResource
 {
 public: 
 	virtual void Service();  
-	PoolResource() {}
-	~PoolResource()
+	PoolResource() { _isInitialized = false; } 
+	virtual ~PoolResource()
 	{
 		ReleaseServiceResources();
 	}
-private:
-	void InitializeServiceResources();
-	void ReleaseServiceResources();
+protected:
+	virtual void InitializeServiceResources();
+	virtual void ReleaseServiceResources();
 	unsigned _refCounter;
 	unsigned _handleID;
 	virtual void Reset();
-	
+	bool _isInitialized; 
+
+	friend class PoolResourceProxy;
 	friend class PoolResourceHandle;	 
 	friend class ResourcePool;
 };

@@ -9,10 +9,10 @@ PoolResourceHandle::PoolResourceHandle()
 	_resourcePool = nullptr;
 }
 
-void PoolResourceHandle::Initialize(ResourcePool &pool, PoolResource &resource)
+void PoolResourceHandle::Initialize(ResourcePool &pool, IPoolResource *resource)
 {
 	_resourcePool = &pool;
-	_resource = &resource;
+	_resource = resource;
 	_resource->_refCounter = 1; 
 }
 
@@ -47,11 +47,11 @@ PoolResourceHandle::PoolResourceHandle(const PoolResourceHandle &h)
 	_resource->_refCounter++;
 }
 
-PoolResource * PoolResourceHandle::operator->()
+IPoolResource * PoolResourceHandle::operator->()
 {
 	try
 	{
-		return (_resource != nullptr) ? _resource : throw exception("NULL PoolResource pointer referenced by PoolResourceHandle.");
+		return (_resource != nullptr) ? _resource : throw exception("NULL IPoolResource pointer referenced by PoolResourceHandle.");
 	}
 	catch (exception ex)
 	{

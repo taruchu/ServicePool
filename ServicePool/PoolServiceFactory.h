@@ -1,27 +1,29 @@
 #pragma once
 
 #include "PoolResource.h"
-#include "ResourceProviderBase.h"
+#include "PoolResourceProxy.h"
+#include "IResourceProviderBase.h" 
 #include <map>
 using namespace std;
 
-class PoolServiceFactory : public ResourceProviderBase
+class PoolServiceFactory : public IResourceProviderBase
 {
 public:
 	PoolServiceFactory() { _lookUpService = nullptr; }
-	PoolServiceFactory(LookUpServiceBase* lookUpService);
+	PoolServiceFactory(ILookUpServiceBase* lookUpService);
 	~PoolServiceFactory();
 	
-	PoolResource AquirePoolResource1234();
+	PoolResource* AcquirePoolResource1234();
+	PoolResourceProxy* AcquirePoolResource1234Proxy();
 	void Dispose();
-	//PoolResource AquirePoolResource4576();
 	
 private:
-	LookUpServiceBase* _lookUpService;
+	ILookUpServiceBase* _lookUpService;
 	string const SERVICE1234 = "service1234";
+	string const SERVICE1234_PROXY = "service1234_proxy";
 	map<string, __int64> _registrationTable;
 
-	LookUpServiceBase* AquireLookUpServiceAccessPoint(string context);
+	ILookUpServiceBase* AcquireLookUpServiceAccessPoint(string context);
 	__int64 RegisterWithLookUpService(string context);
 	bool UnRegisterWithLookUpService(string congtext);
 	void RegisterProperty(string context, string property);

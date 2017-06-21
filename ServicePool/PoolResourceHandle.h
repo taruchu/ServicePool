@@ -1,6 +1,6 @@
 #pragma once
 
-#include "PoolResource.h" 
+#include "IPoolResource.h" 
 class ResourcePool;
 
 class PoolResourceHandle  
@@ -10,12 +10,12 @@ public:
 	~PoolResourceHandle();
 	PoolResourceHandle& operator=(const PoolResourceHandle &h);
 	PoolResourceHandle(const PoolResourceHandle &h);
-	PoolResource* operator->();
+	IPoolResource* operator->();
 	void Release();
 	bool ValidateHandle();
 private:
-	void Initialize(ResourcePool &pool, PoolResource &resource);
-	PoolResource *_resource; 
+	void Initialize(ResourcePool &pool, IPoolResource* resource);
+	IPoolResource *_resource;
  	ResourcePool *_resourcePool; 
 	friend ResourcePool;
 };

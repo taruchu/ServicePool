@@ -1,10 +1,11 @@
 #include "PoolServiceFactory.h"
 
-PoolServiceFactory::PoolServiceFactory(LookUpServiceBase* lookUpService)
+PoolServiceFactory::PoolServiceFactory(ILookUpServiceBase* lookUpService)
 {
 	_lookUpService = lookUpService;
 	RegisterWithLookUpService("NETO");
 	RegisterProperty("NETO", SERVICE1234);
+	RegisterProperty("NETO", SERVICE1234_PROXY);
 	return;
 }
 
@@ -13,21 +14,28 @@ PoolServiceFactory::~PoolServiceFactory()
 	_lookUpService = nullptr;
 	_registrationTable.clear(); 
 }
-PoolResource PoolServiceFactory::AquirePoolResource1234()
+PoolResource* PoolServiceFactory::AcquirePoolResource1234()
 {
-	PoolResource newResource;
+	PoolResource* newResource = new PoolResource();
 	return  newResource;
+}
+
+PoolResourceProxy* PoolServiceFactory::AcquirePoolResource1234Proxy()
+{
+	PoolResourceProxy* newProxy = new PoolResourceProxy();
+	return newProxy;
 }
 
 void PoolServiceFactory::Dispose()
 { 
 	//Unregister with all lookup services
 	UnRegisterProperty("NETO", SERVICE1234);
+	UnRegisterProperty("NETO", SERVICE1234_PROXY);
 	UnRegisterWithLookUpService("NETO");
 	return;
 }
 
-LookUpServiceBase * PoolServiceFactory::AquireLookUpServiceAccessPoint(string context)
+ILookUpServiceBase * PoolServiceFactory::AcquireLookUpServiceAccessPoint(string context)
 {
 	if (context == "NETO")
 		return _lookUpService; //NOTE: Would use RPC to get a pointer to this lookup service, keeping it simple for now.
@@ -40,8 +48,8 @@ __int64 PoolServiceFactory::RegisterWithLookUpService(string context)
 	__int64 regID;
 	if (VerifyRegistration(context) == false)
 	{ 
-		regID = (AquireLookUpServiceAccessPoint(context) != nullptr) 
-					? AquireLookUpServiceAccessPoint(context)->RegisterProvider(this) 
+		regID = (AcquireLookUpServiceAccessPoint(context) != nullptr) 
+					? AcquireLookUpServiceAccessPoint(context)->RegisterProvider(this) 
 					: 0;
 		if (regID > 0)
 			_registrationTable[context] = regID;
@@ -57,8 +65,8 @@ bool PoolServiceFactory::UnRegisterWithLookUpService(string context)
 	if (VerifyRegistration(context))
 	{
 		regID = _registrationTable[context];
-		result = (AquireLookUpServiceAccessPoint(context) != nullptr)
-					? AquireLookUpServiceAccessPoint(context)->UnRegisterProvider(regID)
+		result = (AcquireLookUpServiceAccessPoint(context) != nullptr)
+					? AcquireLookUpServiceAccessPoint(context)->UnRegisterProvider(regID)
 					: false;
 		if(result) 
 			_registrationTable.erase(context); 
@@ -71,8 +79,8 @@ void PoolServiceFactory::RegisterProperty(string context, string property)
 	if (VerifyRegistration(context))
 	{
 		__int64 regID = _registrationTable[context];
-		if(AquireLookUpServiceAccessPoint(context) != nullptr) 
-			AquireLookUpServiceAccessPoint(context)->AddProperty(regID, property);
+		if(AcquireLookUpServiceAccessPoint(context) != nullptr) 
+			AcquireLookUpServiceAccessPoint(context)->AddProperty(regID, property);
 	}
 	return;
 }
@@ -82,8 +90,8 @@ void PoolServiceFactory::UnRegisterProperty(string context, string property)
 	if (VerifyRegistration(context))
 	{
 		__int64 regID = _registrationTable[context];
-		if (AquireLookUpServiceAccessPoint(context) != nullptr)
-			AquireLookUpServiceAccessPoint(context)->RemoveProperty(regID, property);
+		if (AcquireLookUpServiceAccessPoint(context) != nullptr)
+			AcquireLookUpServiceAccessPoint(context)->RemoveProperty(regID, property);
 	}
 }
 
