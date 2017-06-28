@@ -10,7 +10,7 @@ public:
 		ILookUpServiceBase* lookUpService,
 		int eagerAcquisitionAmount,
 		bool lazyAcquisition = false) = 0;
-	virtual PoolResourceHandle Acquire() = 0;
-	virtual void Release(int handleID) = 0;
+	virtual PoolResourceHandle AcquireResource() = 0;
+	virtual void ReleaseResource(int handleID) = 0;
 	virtual bool PoolIsReady() = 0;
 };

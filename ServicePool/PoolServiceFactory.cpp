@@ -38,7 +38,7 @@ void PoolServiceFactory::Dispose()
 ILookUpServiceBase * PoolServiceFactory::AcquireLookUpServiceAccessPoint(string context)
 {
 	if (context == "NETO")
-		return _lookUpService; //NOTE: Would use RPC to get a pointer to this lookup service, keeping it simple for now.
+		return _lookUpService;  
 	else
 		return nullptr;
 }

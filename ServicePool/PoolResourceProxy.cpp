@@ -9,7 +9,7 @@ PoolResourceProxy::PoolResourceProxy()
 	return;
 }
 
-void PoolResourceProxy::Service()
+void PoolResourceProxy::Service(IPoolResourceContext* context)
 { 
 	if (!_isInitialized)
 	{
@@ -17,8 +17,8 @@ void PoolResourceProxy::Service()
 		_realThing->InitializeServiceResources(); 
 		_isInitialized = true; 
 	}  
-	_realThing->Service();
-	cout << "Jesus Loves You so much :=)" << endl; //Just for fun :=)
+	_realThing->Service(context);
+	cout << "Jesus Loves You so much ... from the proxy :=)" << endl; //Just for fun :=)
 	return;
 }
 

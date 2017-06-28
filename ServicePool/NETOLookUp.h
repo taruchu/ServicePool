@@ -24,7 +24,7 @@ public:
 	bool AddProperty(__int64 refID, string property);
 	bool RemoveProperty(__int64 refID, string property);
 private:  
-	map<__int64, void*> _resourceProviders; 
+	map<__int64, void*> _resourceProviders; //TODO:(Leasing??) When should I clean out invalid pointers from this table? i.e. Index is orphan due to provider crash
 	map<string, map<__int64, void*>> _propertyTable; 
 	__int64 GetNewIndex();
 	bool VerifyReferenceID(__int64 refID);

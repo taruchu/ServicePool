@@ -5,7 +5,7 @@
 class PoolResource : public IPoolResource
 {
 public: 
-	virtual void Service();  
+	virtual void Service(IPoolResourceContext* context);
 	PoolResource() { _isInitialized = false; } 
 	virtual ~PoolResource()
 	{

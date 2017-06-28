@@ -13,6 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Utilites">
+      <UniqueIdentifier>{163adc49-0ecd-4ef6-be39-7051d88054e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Leasing">
+      <UniqueIdentifier>{619bcaaa-2989-49ee-951c-b4b81669e0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LookUp">
+      <UniqueIdentifier>{3456b00e-33f7-44fb-aabd-8ccf080674df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pool">
+      <UniqueIdentifier>{44b1d28c-1daf-4fe5-9dd2-611e1aae4093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UtiliesSource">
+      <UniqueIdentifier>{b51533d8-8ab7-4085-9232-a8acb917a81a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LookUpSource">
+      <UniqueIdentifier>{e8e82551-7c46-44ea-a110-5096169d845e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LeasingSource">
+      <UniqueIdentifier>{d3512e62-a005-4b9e-b4c8-524bae3b7d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PoolSource">
+      <UniqueIdentifier>{30630a2d-1ba2-4767-aa9a-48866dbdf9a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -22,67 +46,91 @@
     <ClCompile Include="Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PoolResource.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Logger.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ResourcePool.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PoolResourceHandle.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\UtiliesSource</Filter>
     </ClCompile>
     <ClCompile Include="NETOLookUp.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\LookUpSource</Filter>
     </ClCompile>
-    <ClCompile Include="PoolServiceFactory.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="TimedLease.cpp">
+      <Filter>Source Files\LeasingSource</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolResource.cpp">
+      <Filter>Source Files\PoolSource</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolResourceHandle.cpp">
+      <Filter>Source Files\PoolSource</Filter>
     </ClCompile>
     <ClCompile Include="PoolResourceProxy.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\PoolSource</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolServiceFactory.cpp">
+      <Filter>Source Files\PoolSource</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcePool.cpp">
+      <Filter>Source Files\PoolSource</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircularBuffer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PoolResource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PoolResourceHandle.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Utilites</Filter>
     </ClInclude>
     <ClInclude Include="Logger.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Utilites</Filter>
     </ClInclude>
-    <ClInclude Include="ResourcePool.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="ILease.h">
+      <Filter>Header Files\Leasing</Filter>
+    </ClInclude>
+    <ClInclude Include="ILeaseGrantor.h">
+      <Filter>Header Files\Leasing</Filter>
+    </ClInclude>
+    <ClInclude Include="ILeaseHolder.h">
+      <Filter>Header Files\Leasing</Filter>
+    </ClInclude>
+    <ClInclude Include="TimedLease.h">
+      <Filter>Header Files\Leasing</Filter>
     </ClInclude>
     <ClInclude Include="NETOLookUp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PoolServiceFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PoolResourceProxy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IPoolResource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IResourceProviderBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ILookUpServiceBase.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\LookUp</Filter>
     </ClInclude>
     <ClInclude Include="ILookUpServiceClientBase.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\LookUp</Filter>
+    </ClInclude>
+    <ClInclude Include="ILookUpServiceBase.h">
+      <Filter>Header Files\LookUp</Filter>
+    </ClInclude>
+    <ClInclude Include="IPoolResource.h">
+      <Filter>Header Files\Pool</Filter>
     </ClInclude>
     <ClInclude Include="IResourcePool.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceProviderBase.h">
+      <Filter>Header Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolResource.h">
+      <Filter>Header Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolResourceHandle.h">
+      <Filter>Header Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolResourceProxy.h">
+      <Filter>Header Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolServiceFactory.h">
+      <Filter>Header Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcePool.h">
+      <Filter>Header Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="IPoolResourceContext.h">
+      <Filter>Header Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolResourceContext.h">
+      <Filter>Header Files\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolResourceNullProxy.h">
+      <Filter>Header Files\Pool</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -12,7 +12,7 @@ public:
 		ReleaseServiceResources();
 		return;
 	} 
-	void Service();
+	void Service(IPoolResourceContext* context);
 private:
 	void InitializeServiceResources();
 	void ReleaseServiceResources();

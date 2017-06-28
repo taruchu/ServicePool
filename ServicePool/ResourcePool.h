@@ -5,37 +5,28 @@
 #include "IResourcePool.h"
 #include "PoolServiceFactory.h"
 #include <map>
+#include "ILeaseGrantor.h" 
+#include "TimedLease.h"
+#include <chrono>
 
-class ResourcePool : public IResourcePool, public ILookUpServiceClientBase //TODO: add concurency later
+class ResourcePool : public IResourcePool, public ILookUpServiceClientBase,
+	public ILeaseGrantor //TODO: add concurency later
 {
 public:
-	ResourcePool() 
-	{ 
-		_isInitialized = false; 
-		_lookUpService = nullptr;
-		_lazyAcquisition = false;
-		return;
-	}
+	ResourcePool();
 	void Initialize(int poolMaximumResources, 
 		ILookUpServiceBase* lookUpService, 
 		int eagerAcquisitionAmount, 
 		bool lazyAcquisition = false);	
-	~ResourcePool() 
-	{
-		//NOTE: Remember to Clean Up
-		_lookUpService = nullptr;
-		std::map<int, IPoolResource*>::iterator itr;
-		for (itr = _resourceTable.begin(); itr != _resourceTable.end();)
-		{
-			delete itr->second;
-			(itr++)->second = nullptr;
-		}
-		_resourceTable.clear();
-		return;
-	}
-	PoolResourceHandle Acquire(); 
-	void Release(int handleID);
+	~ResourcePool();
+	
+	PoolResourceHandle AcquireResource();
+	void ReleaseResource(int handleID);
 	bool PoolIsReady() { return _isInitialized; }
+	__int64 AcquireResourceLease(__int64 duration, int handleID = 0);
+	bool EvictResourceLease(__int64 leaseID, int handleID = 0);
+	bool LeaseStatusOfResource(__int64 leaseID, int handleID = 0);
+
 private:
 	bool _isInitialized;
 	bool _lazyAcquisition;
@@ -43,14 +34,18 @@ private:
 	int _poolMaximumResources, _eagerAcquisitionAmount;
 	std::map<int, IPoolResource*> _resourceTable;
 	CircularBuffer<int> _freeResourcesBuffer;
+	std::map<int, map<__int64, TimedLease>> _leasedResourcesTable; 
 
 	int FindFreeHandleID();
 	void RecycleOrEvict(int handleID);
 	void EagerlyAcquireResources();
 	void LazilyAcquireResources();
-	bool VerifyHandleID(int handleID);
+	bool VerifyResourceHandleID(int handleID);
+	bool VerifyLeaseHandleID(int handleID);
+	bool VerifyLeaseID(int handleID, __int64 leaseID);
 	bool EmergencyLazyAcquisition();
 	bool XpercentFree(float percent);
+	__int64 GetNewIndex();
 
 	void* AcquireResourceProviderByQuery(ILookUpServiceBase* service, string property);
 	ILookUpServiceBase* AcquireLookUpServiceAccessPoint(string context);

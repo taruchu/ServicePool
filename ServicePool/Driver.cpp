@@ -7,6 +7,7 @@ using namespace std;
 #include"ResourcePool.h" 
 #include "NETOLookUp.h"
 #include "PoolServiceFactory.h"
+#include "PoolResourceContext.h"
  
 int main()
 {  
@@ -15,47 +16,34 @@ int main()
 	
 
 	ResourcePool pool;
-	pool.Initialize(20, lookup, 5, false);
-
+	pool.Initialize(20, lookup, 5, false); //NOTE: Since the lazy aquizition flag is false, the "emergency lazy aquisistion" will 
+										//kick in once the pool contains more than 5 allocated resources. This is because I used 5 for the 
+										//eager aquisition limit. Five is less than the max of 20, so the emergency system will 
+										//allocate 15 more using a proxy instead of the real resource. But it has to wait until
+										//all 5 eager allocations are used up.
 	if(pool.PoolIsReady())
-	{ 
-		PoolResourceHandle handle1 = pool.Acquire();
-		PoolResourceHandle handle2 = pool.Acquire();
-		PoolResourceHandle handle3 = pool.Acquire();
-		PoolResourceHandle handle4 = pool.Acquire();
-		PoolResourceHandle handle5 = pool.Acquire();
-		PoolResourceHandle handle6 = pool.Acquire();//NOTE: Proxy should "kick in" here.
+	{  
+		PoolResourceHandle handle1 = pool.AcquireResource();
+		handle1.GetNewLease(100);
+		PoolResourceContext *context = new PoolResourceContext;
+		context->SetParam2("Love is all you need.");
 
-		if (handle1.ValidateHandle())
+		while(handle1.CheckLease()) 
 		{
-			handle1->Service(); 
+			handle1.Resource()->Service(context);
+		} 		 
+		if(!handle1.CheckLease()) 
+			handle1.Release();
+
+		handle1 = pool.AcquireResource();
+		handle1.GetNewLease(100);
+		while (handle1.CheckLease())
+		{
+			handle1.Resource()->Service(context);
 			handle1.Release();
 		}
-		if (handle2.ValidateHandle())
-		{
-			handle2->Service();
-			handle2.Release();
-		}
-		if (handle3.ValidateHandle())
-		{
-			handle3->Service();
-			handle3.Release();
-		}
-		if (handle4.ValidateHandle())
-		{
-			handle4->Service();
-			handle4.Release();
-		}
-		if (handle5.ValidateHandle())
-		{
-			handle5->Service();
-			handle5.Release();
-		}
-		if (handle6.ValidateHandle())
-		{
-			handle6->Service();
-			handle6.Release();
-		}
+		 
+		delete context;
 	}
 
 	factory.Dispose();

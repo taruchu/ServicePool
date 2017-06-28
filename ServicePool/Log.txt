@@ -64,3 +64,693 @@ Tue Jun 20 19:23:34 2017
  line: 89
  message: Could not find this handleID: -858993460
 
+Mon Jun 26 12:53:06 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 161
+ message: Could not find this handleID: 1
+
+Mon Jun 26 12:53:06 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 161
+ message: Could not find this handleID: 2
+
+Mon Jun 26 12:53:06 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 161
+ message: Could not find this handleID: 3
+
+Mon Jun 26 12:53:06 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 161
+ message: Could not find this handleID: 4
+
+Mon Jun 26 12:53:06 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 161
+ message: Could not find this handleID: 5
+
+Mon Jun 26 12:53:06 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 161
+ message: Could not find this handleID: 6
+
+Tue Jun 27 16:31:06 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498606266752
+
+Tue Jun 27 16:31:06 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498606266752
+
+Tue Jun 27 16:32:06 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498606326437
+
+Tue Jun 27 16:32:06 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498606326437
+
+Tue Jun 27 16:32:17 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498606337630
+
+Tue Jun 27 16:32:17 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498606337630
+
+Tue Jun 27 16:33:49 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498606429825
+
+Tue Jun 27 16:33:49 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498606429825
+
+Tue Jun 27 16:33:49 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498606429825
+
+Tue Jun 27 16:33:49 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498606429825
+
+Tue Jun 27 16:34:09 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498606449266
+
+Tue Jun 27 16:34:09 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498606449266
+
+Tue Jun 27 16:34:34 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498606467865
+
+Tue Jun 27 16:34:34 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498606467865
+
+Tue Jun 27 16:36:36 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498606583742
+
+Tue Jun 27 16:36:36 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498606583742
+
+Tue Jun 27 17:29:58 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498609788987
+
+Tue Jun 27 17:29:58 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498609788987
+
+Tue Jun 27 17:30:04 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498609788987
+
+Tue Jun 27 17:30:04 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498609788987
+
+Tue Jun 27 17:30:04 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498609788987
+
+Tue Jun 27 17:30:04 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498609788987
+
+Tue Jun 27 17:30:13 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498609813816
+
+Tue Jun 27 17:30:13 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498609813816
+
+Tue Jun 27 17:30:13 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498609813816
+
+Tue Jun 27 17:30:13 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498609813816
+
+Tue Jun 27 17:30:13 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498609813816
+
+Tue Jun 27 17:30:13 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498609813816
+
+Tue Jun 27 17:36:14 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498610174351
+
+Tue Jun 27 17:36:14 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610174351
+
+Tue Jun 27 17:36:14 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498610174351
+
+Tue Jun 27 17:36:14 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610174351
+
+Tue Jun 27 17:36:14 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498610174351
+
+Tue Jun 27 17:36:14 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610174351
+
+Tue Jun 27 17:36:26 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498610186433
+
+Tue Jun 27 17:36:26 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610186433
+
+Tue Jun 27 17:36:26 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498610186433
+
+Tue Jun 27 17:36:26 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610186433
+
+Tue Jun 27 17:36:26 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498610186433
+
+Tue Jun 27 17:36:26 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610186433
+
+Tue Jun 27 17:36:56 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498610216498
+
+Tue Jun 27 17:36:56 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610216498
+
+Tue Jun 27 17:36:56 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498610216498
+
+Tue Jun 27 17:36:56 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610216498
+
+Tue Jun 27 17:36:56 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 257
+ message: Could not find this leaseID: 1498610216498
+
+Tue Jun 27 17:36:56 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610216498
+
+Tue Jun 27 17:39:09 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498610348927
+
+Tue Jun 27 17:39:09 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610348927
+
+Tue Jun 27 17:39:09 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498610348927
+
+Tue Jun 27 17:39:09 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610348927
+
+Tue Jun 27 17:39:09 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498610348927
+
+Tue Jun 27 17:39:09 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610348927
+
+Tue Jun 27 17:40:32 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 238
+ message: Could not find this lease handleID:1
+
+Tue Jun 27 17:41:14 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 238
+ message: Could not find this lease handleID:1
+
+Tue Jun 27 17:42:24 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 238
+ message: Could not find this lease handleID:1
+
+Tue Jun 27 17:42:54 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 238
+ message: Could not find this lease handleID:1
+
+Tue Jun 27 17:43:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498610602769
+
+Tue Jun 27 17:43:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610602769
+
+Tue Jun 27 17:43:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498610602769
+
+Tue Jun 27 17:43:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610602769
+
+Tue Jun 27 17:43:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498610602769
+
+Tue Jun 27 17:43:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498610602769
+
+Tue Jun 27 19:50:41 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498618241464
+
+Tue Jun 27 19:50:41 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498618241464
+
+Tue Jun 27 19:50:41 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498618241464
+
+Tue Jun 27 19:50:41 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498618241464
+
+Tue Jun 27 20:15:36 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498619720985
+
+Tue Jun 27 20:15:36 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498619720985
+
+Tue Jun 27 20:15:55 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498619720985
+
+Tue Jun 27 20:15:55 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498619720985
+
+Tue Jun 27 20:30:53 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498620647963
+
+Tue Jun 27 20:30:53 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498620647963
+
+Tue Jun 27 20:31:01 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498620647963
+
+Tue Jun 27 20:31:01 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498620647963
+
+Tue Jun 27 20:31:44 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498620697513
+
+Tue Jun 27 20:31:44 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498620697513
+
+Tue Jun 27 20:31:47 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498620697513
+
+Tue Jun 27 20:31:47 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498620697513
+
+Tue Jun 27 20:34:39 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498620795399
+
+Tue Jun 27 20:34:39 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498620795399
+
+Tue Jun 27 20:40:40 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498621145443
+
+Tue Jun 27 20:40:40 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498621145443
+
+Tue Jun 27 20:46:11 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498621571332
+
+Tue Jun 27 20:46:11 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498621571332
+
+Tue Jun 27 20:48:32 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498621712549
+
+Tue Jun 27 20:48:32 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498621712549
+
+Tue Jun 27 20:48:32 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 238
+ message: Could not find this lease handleID:2
+
+Tue Jun 27 20:49:25 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498621765293
+
+Tue Jun 27 20:49:25 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498621765293
+
+Tue Jun 27 20:49:25 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498621765408
+
+Tue Jun 27 20:49:25 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498621765408
+
+Tue Jun 27 20:50:25 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498621825353
+
+Tue Jun 27 20:50:25 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498621825353
+
+Tue Jun 27 20:50:25 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 238
+ message: Could not find this lease handleID:2
+
+Tue Jun 27 20:51:59 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498621919000
+
+Tue Jun 27 20:51:59 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498621919000
+
+Tue Jun 27 20:51:59 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498621919000
+
+Tue Jun 27 20:51:59 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498621919000
+
+Tue Jun 27 20:51:59 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 238
+ message: Could not find this lease handleID:2
+
+Tue Jun 27 20:52:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498621942841
+
+Tue Jun 27 20:52:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498621942841
+
+Tue Jun 27 20:52:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498621942841
+
+Tue Jun 27 20:52:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498621942841
+
+Tue Jun 27 20:52:22 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 238
+ message: Could not find this lease handleID:2
+
+Tue Jun 27 20:53:51 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498622031232
+
+Tue Jun 27 20:53:51 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498622031232
+
+Tue Jun 27 20:53:51 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 258
+ message: Could not find this leaseID: 1498622031232
+
+Tue Jun 27 20:53:51 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 122
+ message: Resource Pool Lease status could not find this leaseID: 1498622031232
+
+Tue Jun 27 20:53:51 2017
+
+ file: c:\users\dionn\onedrive\documents\visual studio 2015\projects\servicepool\servicepool\resourcepool.cpp
+ line: 238
+ message: Could not find this lease handleID:2
+

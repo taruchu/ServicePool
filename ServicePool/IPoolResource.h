@@ -1,9 +1,10 @@
 #pragma once
+#include "IPoolResourceContext.h"
 
 class IPoolResource abstract
 {
 public:
-	virtual void Service() = 0;  
+	virtual void Service(IPoolResourceContext* context) = 0;  
 protected:
 	virtual void InitializeServiceResources() = 0;
 	virtual void ReleaseServiceResources() = 0;

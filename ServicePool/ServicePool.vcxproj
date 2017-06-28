@@ -154,21 +154,29 @@
     <ClCompile Include="PoolResourceProxy.cpp" />
     <ClCompile Include="PoolServiceFactory.cpp" />
     <ClCompile Include="ResourcePool.cpp" />
+    <ClCompile Include="TimedLease.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CircularBuffer.h" />
+    <ClInclude Include="ILease.h" />
+    <ClInclude Include="ILeaseGrantor.h" />
+    <ClInclude Include="ILeaseHolder.h" />
     <ClInclude Include="IPoolResource.h" />
+    <ClInclude Include="IPoolResourceContext.h" />
     <ClInclude Include="IResourcePool.h" />
     <ClInclude Include="Logger.h" />
     <ClInclude Include="ILookUpServiceBase.h" />
     <ClInclude Include="ILookUpServiceClientBase.h" />
     <ClInclude Include="NETOLookUp.h" />
     <ClInclude Include="PoolResource.h" />
+    <ClInclude Include="PoolResourceContext.h" />
     <ClInclude Include="PoolResourceHandle.h" />
+    <ClInclude Include="PoolResourceNullProxy.h" />
     <ClInclude Include="PoolResourceProxy.h" />
     <ClInclude Include="PoolServiceFactory.h" />
     <ClInclude Include="ResourcePool.h" />
     <ClInclude Include="IResourceProviderBase.h" />
+    <ClInclude Include="TimedLease.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

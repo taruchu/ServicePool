@@ -3,10 +3,11 @@
 #include <iostream>
 using namespace std;
   
-void PoolResource::Service()
+void PoolResource::Service(IPoolResourceContext* context)
 {   
 	//TODO: Implement another service of some kind, maybe a socket or thread?
-	cout << "Jesus Loves You :=)" <<endl;
+	string output = (context != nullptr && context->GetParam2() != "") ? context->GetParam2() : "Jesus Loves You :=)";
+	cout << output <<endl;
 	return;
 }
 
